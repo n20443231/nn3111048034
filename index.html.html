@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>作業</title>
+<style type="text/css">
+.box2 {
+    background-color: #5038A0;
+    width: 200px;
+    height: 200px;
+    -webkit-transition: all 1000ms ease-in-out 0s;
+    -o-transition: all 1000ms ease-in-out 0s;
+    transition: all 1000ms ease-in-out 0s;
+    color: #00FFC3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+.box1 {
+    width: 200px;
+    height: 200px;
+    background-color: #DFBFC0;
+    -webkit-transition: all 1000ms ease-in-out 0s;
+    -o-transition: all 1000ms ease-in-out 0s;
+    transition: all 1000ms ease-in-out 0s;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF500;
+    font-size: 50px;
+}
+body article {
+    display: flex;
+    flex-direction: column;
+	justify-content: center;
+  align-items: center; 
+}
+.box1:hover {
+   transform: scale(1.5, 1.5);
+	
+}
+.box2:active {
+    background-color: #FF0004;
+	transform: rotate(360deg);
+}
+.box3 {
+    width: 200px;
+    height: 200px;
+    background-color: #00DBFF;
+    text-align: center;
+    -webkit-transition: all 1000ms ease-in-out 0s;
+    -o-transition: all 1000ms ease-in-out 0s;
+    transition: all 1000ms ease-in-out 0s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E99B9C;
+    font-size: 50px;
+}
+	.box3:active {
+    background-color: #00FF34;
+    transform: translate(50px, 50px);
+    -webkit-transform: translate(50px, 50px);
+    -o-transform: translate(50px, 50px);
+body article {
+	
+}
+</style>
+</head>
+
+<body>
+	<article>
+<div class="box1">縮放</div>
+<div class="box2">旋轉</div>
+<div class="box3">位移</div>
+		</article>
+</body>
+</html>
